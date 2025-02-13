@@ -3,7 +3,7 @@ import GenderCheckbox from "./GenderCheckbox";
 import { useState } from "react";
 import useSignup from "../../hooks/useSignup";
 
-const SignUp = () => {
+const SignUp = () => { 
 	const [inputs, setInputs] = useState({
 		fullName: "",
 		username: "",
