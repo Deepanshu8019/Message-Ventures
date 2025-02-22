@@ -33,7 +33,7 @@ const SignUp = () => {
 				<form onSubmit={handleSubmit}>
 					<div>
 						<label className='label p-2'>
-							<span className='text-base label-text'>Full Name</span>
+							<span className='text-base text-gray-200 label-text'>Full Name</span>
 						</label>
 						<input
 							type='text'
@@ -46,7 +46,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label p-2 '>
-							<span className='text-base label-text'>Username</span>
+							<span className='text-base text-gray-200 label-text'>Username</span>
 						</label>
 						<input
 							type='text'
@@ -59,7 +59,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label'>
-							<span className='text-base label-text'>Password</span>
+							<span className='text-base text-gray-200 label-text'>Password</span>
 						</label>
 						<input
 							type='password'
@@ -72,7 +72,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label'>
-							<span className='text-base label-text'>Confirm Password</span>
+							<span className='text-base text-gray-200 label-text'>Confirm Password</span>
 						</label>
 						<input
 							type='password'
@@ -83,7 +83,7 @@ const SignUp = () => {
 						/>
 					</div>
 
-					<GenderCheckbox onCheckboxChange={handleCheckboxChange} selectedGender={inputs.gender} />
+					<GenderCheckbox className="text-gray-200" onCheckboxChange={handleCheckboxChange} selectedGender={inputs.gender} />
 
 					<Link
 						to={"/login"}
